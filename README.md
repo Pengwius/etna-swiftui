@@ -3,7 +3,7 @@
 ###
 
 # Warunki użycia aplikacji:
-Aplikacja jest tylko i wyłącznie UI. Nie zawiera żadnych funkcji. Nie pobiera ona danych z żadnych dzienników elektronicznych.
+Aplikacja jest tylko i wyłącznie interfejsem użytkownika (UI). Nie zawiera żadnych funkcji. Nie pobiera ona danych z żadnych dzienników elektronicznych. Można ją dowolnie zastosować w ramach swoich potrzeb.
 
 ## Warunki użycia w celach niekomercyjnych:
 - Zamieszczenie creditsów w aplikacji wraz z linkiem do repozytorium
