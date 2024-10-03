@@ -6,12 +6,26 @@
 //
 
 import SwiftUI
+import Combine
 
 @main
 struct EtnaApp: App {
+    @AppStorage("isLogged") private var isLogged: Bool = false
+    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
+    
+    init() {
+        if(isLogged == true) {
+            
+        }
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if(needsAppOnboarding) {
+                OnboardingView()
+            } else {
+                NavigationBarView()
+            }
         }
     }
 }

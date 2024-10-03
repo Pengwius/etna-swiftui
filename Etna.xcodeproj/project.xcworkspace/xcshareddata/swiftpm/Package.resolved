@@ -1,0 +1,24 @@
+{
+  "originHash" : "0dba425e47a1759fab0e6b7cde458f46a3062212e40bde0fbde827c5c495b969",
+  "pins" : [
+    {
+      "identity" : "swiftuiektensions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EnesKaraosman/SwiftUIEKtensions",
+      "state" : {
+        "revision" : "bf96c0d841d2bc81dac0d7e28aa9ab71cd7d6c2a",
+        "version" : "0.4.0"
+      }
+    },
+    {
+      "identity" : "swiftyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
+      "state" : {
+        "revision" : "af76cf3ef710b6ca5f8c05f3a31307d44a3c5828",
+        "version" : "5.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
